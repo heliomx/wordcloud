@@ -175,7 +175,9 @@ export default function App() {
 
   return (
     <div className="container">
-      <img class="relayto-logo" src="https://cdn.prod.website-files.com/5d3dd13dcb7dfd0d23f46465/67dc063321bf30ae8452ddf8_Relayto%20Logo%20AI.webp" />
+      <div className="logo-container">
+        <img className="relayto-logo" src="https://cdn.prod.website-files.com/5d3dd13dcb7dfd0d23f46465/67dc063321bf30ae8452ddf8_Relayto%20Logo%20AI.webp" />
+      </div>
       <Prompt setResponseVisibility={setResponseVisibility} />
       <Canvas
         className={`cloud-container ${responseVisibility ? 'response-visible' : ''}`}

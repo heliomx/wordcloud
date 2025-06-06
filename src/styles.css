@@ -44,11 +44,18 @@ body {
   z-index: 100;
 }
 
-.relayto-logo {
+.logo-container {
   position: absolute;
-  top: 40px;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(30px);
+  background-color: #cccccc0f;
+  padding: 10px;
+}
+
+.logo-container .relayto-logo {
   width: 220px;
 }
 
