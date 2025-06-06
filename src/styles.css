@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -35,6 +42,14 @@ body {
   left: 50%;
   transform: translate(-50%);
   z-index: 100;
+}
+
+.relayto-logo {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
 }
 
 .prompt .go-icon {
@@ -69,7 +84,7 @@ body {
   padding: 10px;
   color: rgb(40, 40, 40);
   font-weight: 200;
-  font-family: 'Inter';
+  font-family: 'Inter-Bold';
   backdrop-filter: blur(20px);
 }
 
