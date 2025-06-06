@@ -182,7 +182,7 @@ export default function App() {
       <Canvas
         className={`cloud-container ${responseVisibility ? 'response-visible' : ''}`}
         dpr={[1, 2]}
-        camera={{ position: [0, 0, 35], fov: 90 }}
+        camera={{ position: [0, 0, 30], fov: 90 }}
         onCreated={({ camera }) => {
           const mixer = new THREE.AnimationMixer(camera)
           animateCamera(camera, mixer)

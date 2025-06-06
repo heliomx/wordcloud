@@ -53,6 +53,7 @@ body {
   backdrop-filter: blur(30px);
   background-color: #cccccc0f;
   padding: 10px;
+  z-index: 101;
 }
 
 .logo-container .relayto-logo {
