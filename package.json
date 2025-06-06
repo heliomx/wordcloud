@@ -4,6 +4,7 @@
   "description": "A spherical word-cloud with even distribution whose words always face the camera.",
   "keywords": ["billboard", "wordcloud"],
   "main": "src/index.js",
+  "homepage": ".",
   "dependencies": {
     "@react-three/drei": "8.7.4",
     "@react-three/fiber": "7.0.25",
@@ -18,7 +19,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "BUILD_PATH=./docs react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
